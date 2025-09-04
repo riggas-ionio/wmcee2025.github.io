@@ -1,8 +1,13 @@
-jekyll:
-  image: jekyll/jekyll:3.8
-  container_name: jekyll_wmhack_2023
-  command: sh -c 'gem install jekyll bundler; bundler; bundle exec jekyll serve -b "" --host 0.0.0.0 --livereload --incremental --watch'
-  ports:
-    - 4000:4000
-  volumes:
-    - .:/srv/jekyll
+version: '3.8'
+
+services:
+  jekyll:
+    image: jekyll/jekyll:4.2.0
+    platform: linux/amd64
+    container_name: jekyll_wmhack_2023
+    #command: sh -c 'echo "Starting.."; gem install jekyll bundler; bundler; bundle exec jekyll serve -b "" --host 0.0.0.0 --livereload --incremental --watch'
+    command: sh -c 'echo "Starting.."; gem install jekyll bundler; bundler; echo "Run manually bundle exec jekyll serve"; tail -f /dev/null'
+    ports:
+      - 4000:4000
+    volumes:
+      - .:/srv/jekyll
