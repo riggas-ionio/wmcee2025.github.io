@@ -3,8 +3,8 @@ name: "Announcements cron"
 on:
   repository_dispatch:
     types: do_announce
-  # schedule:
-  #   - cron: '0/15 * * * *' # Every 15 minutes daily
+  schedule:
+    - cron: '0/15 * * * *' # Every 15 minutes daily
 
 jobs:
   build:
