@@ -41,5 +41,6 @@ for dt, arr in parsed_announcements.items():
         continue
     print('Announce: ', ann_time)
     for txt in arr:
-        bot.send_message(chat_id=CHAT_ID, text=('Coming up at #wmhack #wmhack2023 \n🕰️'+(ann_time.strftime('%H:%M'))+' \n\n'+txt))
+        # bot.send_message(chat_id=CHAT_ID, text=('Coming up at #wmcee #wmcee2025 \n🕰️'+(ann_time.strftime('%H:%M'))+' \n\n'+txt))
+        bot.send_message(chat_id=CHAT_ID, text=('Coming up at Wikimedia CEE Meeting 2025 \n🕰️'+(ann_time.strftime('%H:%M'))+' \n\n'+txt))
         time.sleep(1)
