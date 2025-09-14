@@ -1,7 +1,7 @@
 from decouple import config
 import datetime
 import telebot
-impoer requests
+import requests
 
 # --- SETTINGS ---
 
