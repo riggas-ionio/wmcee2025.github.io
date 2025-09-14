@@ -1,6 +1,6 @@
 from decouple import config
-import requests
 import datetime
+import telebot
 
 # --- SETTINGS ---
 
@@ -89,10 +89,9 @@ def summarize_forecast(data, days=3):
 
 # --- SEND TO TELEGRAM ---
 def send_telegram_message(token, chat_id, text):
-    url = f"https://api.telegram.org/bot{token}/sendMessage"
-    payload = {"chat_id": chat_id, "text": text}
-    r = requests.post(url, data=payload)
-    r.raise_for_status()
+    bot = telebot.TeleBot(token, parse_mode=None)
+    bot.send_message(chat_id=chat_id, text=(text))
+    time.sleep(1)
 
 # --- MAIN ---
 if __name__ == "__main__":
