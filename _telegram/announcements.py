@@ -14,7 +14,6 @@ global TOKEN
 TOKEN = config('BOT_TOKEN')
 # CHAT_ID = config('CHAT_ID')
 CHAT_ID_json = os.getenv("CHAT_ID")
-print(CHAT_ID_json)
 CHAT_ID = json.loads(CHAT_ID_json)
 ANNOUNCEMENTS = '_telegram/announcements.yaml'
 ANNOUNCE_EVERY = 15 #minutes
@@ -29,7 +28,7 @@ with open(ANNOUNCEMENTS, 'r') as stream:
 bot = telebot.TeleBot(TOKEN, parse_mode=None)
 
 NOW = DT.now(pytz.timezone('Europe/Athens')).replace(tzinfo=None)
-print('Now in Athens/GR: ', NOW)
+print('Now in Thessaloniki: ', NOW)
 
 for dt, channels in parsed_announcements.items():
     ann_time = DT.strptime(dt, '%d/%m/%Y %H:%M:%S')
