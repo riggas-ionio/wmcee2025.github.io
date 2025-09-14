@@ -98,5 +98,5 @@ def send_telegram_message(token, chat_id, text):
 if __name__ == "__main__":
     forecast = get_forecast(LAT, LON)
     text = summarize_forecast(forecast, days=3)
-    # send_telegram_message(TOKEN, CHAT_ID, text)
+    send_telegram_message(TOKEN, CHAT_ID, text)
     print(f"✅ Forecast sent to Telegram! \n{text}")
