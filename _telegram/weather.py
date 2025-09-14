@@ -2,12 +2,16 @@ from decouple import config
 import datetime
 import telebot
 import requests
+import json
+import time 
 
 # --- SETTINGS ---
 
 LAT, LON = 40.6401, 22.9444   # Thessaloniki coordinates
 TOKEN = config('BOT_TOKEN')
-CHAT_ID = config('CHAT_ID')
+# CHAT_ID = config('CHAT_ID')
+CHAT_ID_json = config("CHAT_ID")
+CHAT_ID = json.loads(CHAT_ID_json)
 CITY = config('CITY')
 LAT, LON = config('LAT'), config('LON')
 
@@ -98,5 +102,6 @@ def send_telegram_message(token, chat_id, text):
 if __name__ == "__main__":
     forecast = get_forecast(LAT, LON)
     text = summarize_forecast(forecast, days=3)
-    send_telegram_message(TOKEN, CHAT_ID, text)
-    print(f"✅ Forecast sent to Telegram! \n{text}")
+    for channel, channel_id in CHAT_ID.items():
+        send_telegram_message(TOKEN, channel_id, text)
+        print(f"✅ Forecast sent to Telegram {channel}! \n{text}")
