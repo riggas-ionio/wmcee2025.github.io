@@ -42,12 +42,14 @@ for dt, channels in parsed_announcements.items():
     if diff.seconds/60 > ANNOUNCE_EVERY :
         print('Skip: ', ann_time, '> ',ANNOUNCE_EVERY, ' MINUTES ', diff)
         continue
-    print('Announce: ', ann_time)
+    print('Announce for: ', ann_time)
     for channel in channels:
         if channel in CHAT_ID:
             for txt in parsed_announcements[dt][channel]:
-                print('Coming up at #wmceem2025 \n\n🕰️ '+(ann_time.strftime('%H:%M %Y-%m-%d'))+' \n'+txt)
-                bot.send_message(chat_id=CHAT_ID[channel], text=('Coming up at Wikimedia CEE Meeting 2025 \n\n🕰️'+(ann_time.strftime('%H:%M %Y-%m-%d'))+' \n'+txt))
+                # msg = 'Coming up at #wmceem2025 \n\n🕰️ '+(ann_time.strftime('%H:%M %Y-%m-%d'))+' \n'+txt
+                msg = 'Coming up at #wmceem2025 \n'+txt
+                print(msg)
+                bot.send_message(chat_id=CHAT_ID[channel], text=(msg))
                 time.sleep(1)
         else:
             print('No channel:', channel)
