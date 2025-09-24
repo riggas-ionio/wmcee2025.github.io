@@ -63,7 +63,14 @@
       * Departs at 15:00 - Meeting point: Gregory's Coffee, Thessaloniki Airport
       * Departs at 22:30 - Meeting point: Gregory's Coffee, Thessaloniki Airport
 
-24/09/2025 21:30:00:
+24/09/2025 18:46:00:
+  MAIN:
+    - |
+      Early Registration time slot for CEE Meeting attendees, opens at 19:00.
+      Location: Grand Hotel Palace, Monastiriou 305, 54628, Thessaloniki; left of the main entrance.
+      Next Registration slot is tomorrow 25/09 at 20:00 and then on 26/09 at 08:00 (AM).
+
+24/09/2025 21:31:00:
   LD:
     - |
       Learning Day starts in 12 hours!
@@ -72,14 +79,24 @@
       More: https://meta.wikimedia.org/wiki/Wikimedia_CEE_Meeting_2025/Learning_Day 
 
 
-24/09/2025 22:00:00:
+24/09/2025 22:01:00:
   LD:
     - |
-      Upcoming bus shuttles from Thessaloniki Airport to the venue for Learning Day attendees arriving on the 24th September:
+      Upcoming bus shuttles from Thessaloniki Airport to the CEE Meeting venue for Learning Day attendees arriving on the 24th September:
       * Departs at 22:30 - Meeting point: Gregory's Coffee, Thessaloniki Airport
+      Tommorow, shuttle buses will be available from Thessaloniki Airport to the CEE Meeting venue on 19:30 and 22:00.
 
   MAIN:
     - |
-      Upcoming bus shuttles from Thessaloniki Airport to the venue for CEE Meeting attendees arriving on the 24th September:
+      Upcoming bus shuttles from Thessaloniki Airport to the CEE Meeting venue for CEE Meeting attendees arriving on the 24th September:
       * Departs at 22:30 - Meeting point: Gregory's Coffee, Thessaloniki Airport
+
+25/09/2025 08:01:00:
+  LD:
+    - |
+      Shuttle bus from Grand Hotel Palace to Learning Day venue departs at 08:45(AM).
+      Learning day will be hosted at Goethe-Institut Thessaloniki, Vassilisis Olgas 66, 54642, Thessaloniki. 
+    - |
+      Walk in Learning Day before 09:30(AM), at Goethe-Institut Thessaloniki, Vassilisis Olgas 66, 54642, Thessaloniki. 
+      More: https://meta.wikimedia.org/wiki/Wikimedia_CEE_Meeting_2025/Learning_Day 
 
