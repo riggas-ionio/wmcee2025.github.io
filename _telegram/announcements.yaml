@@ -92,11 +92,56 @@
       * Departs at 22:30 - Meeting point: Gregory's Coffee, Thessaloniki Airport
 
 25/09/2025 08:01:00:
+  MAIN:
+    - |
+      🚌 Today there are scheduled shuttle buses from Thessaloniki Airport to the CEE Meeting venue only in the evening: 19:30 and 22:00.
+      Rest of day: https://meta.wikimedia.org/wiki/Wikimedia_CEE_Meeting_2025/Guide#Public_transport 
   LD:
     - |
-      Shuttle bus from Grand Hotel Palace to Learning Day venue departs at 08:45(AM).
+      🚌 Shuttle bus from Grand Hotel Palace to Learning Day venue departs at 08:45(AM).
       Learning day will be hosted at Goethe-Institut Thessaloniki, Vassilisis Olgas 66, 54642, Thessaloniki. 
+    - |
+      Registration for Learning Day attendees opens at 08:30(AM), at Goethe-Institut Thessaloniki, Vassilisis Olgas 66, 54642, Thessaloniki.
+      Program: https://meta.wikimedia.org/wiki/Wikimedia_CEE_Meeting_2025/Learning_Day#Programme
     - |
       Walk in Learning Day before 09:30(AM), at Goethe-Institut Thessaloniki, Vassilisis Olgas 66, 54642, Thessaloniki. 
       More: https://meta.wikimedia.org/wiki/Wikimedia_CEE_Meeting_2025/Learning_Day 
 
+25/09/2025 09:31:00:
+  LD:
+    - |
+      * 🕰️ 10:00: Keynote & General intro, Alan Ang
+      * 🕰️ 10:15: Wikidata & Wikibase introduction, Christos Varvantakis
+      * 🕰️ 10:30: Wikidata and libraries (authority files), Camillo Pellizzari
+    
+25/09/2025 13:01:00:
+  LD:
+    - |
+      * 🕰️ 13:30: Use cases presentations by National Libraries representatives, Christos Varvantakis (moderator), Michalis Gerolimos, Mārīte Apenīte, Uldis Bojārs, Petra Šťastná
+
+25/09/2025 15:01:00:
+  LD:
+    - |
+      * 🕰️ 15:30: Hands-on session, Camillo Pellizzari, Christos Varvantakis, Alan Ang
+      * 🕰️ 17:30: Closing discussion
+    
+
+25/09/2025 19:01:00:
+  MAIN:
+    - |
+      🚌 Upcoming bus shuttles from Thessaloniki Airport to the CEE Meeting venue for CEE Meeting attendees arriving on the 25th September:
+      * Departs on 19:30 - Meeting point: Gregory's Coffee, Thessaloniki Airport
+      Next on 22:00. 
+
+25/09/2025 19:46:00:
+  MAIN:
+    - |
+      Early Registration time slot for CEE Meeting attendees, opens at 20:00.
+      Location: Grand Hotel Palace, Monastiriou 305, 54628, Thessaloniki; right of the main entrance, at the conference area.
+      Next Registration slot is tomorrow, on 26/09, at 08:00 (AM).
+
+25/09/2025 21:31:00:
+  MAIN:
+    - |
+      🚌 Upcoming bus shuttles from Thessaloniki Airport to the CEE Meeting venue for CEE Meeting attendees arriving on the 25th September:
+      * Last shuttle departs on 22:00 - Meeting point: Gregory's Coffee, Thessaloniki Airport
